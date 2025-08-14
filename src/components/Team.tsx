@@ -248,7 +248,7 @@ const Team = () => {
             <h1 className="text-3xl md:text-4xl lg:text-7xl font-black leading-tight text-gray-900 tracking-tight">
               The Visionaries Behind
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent block mt-2 relative">
-                Lexim's Revolution
+                Lumix's Revolution
                 <div className="absolute -top-2 md:-top-4 right-0 w-6 md:w-8 h-6 md:h-8 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full animate-bounce opacity-80"></div>
               </span>
             </h1>
