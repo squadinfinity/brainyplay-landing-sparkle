@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, User, Baby, ArrowRight, CheckCircle, Shield, Gift, Bell } from "lucide-react";
+import { Mail, User, Baby, ArrowRight, CheckCircle, Shield, Gift, Bell, AlertCircle } from "lucide-react";
 
 const Features = () => {
   const [formData, setFormData] = useState({
@@ -10,16 +10,72 @@ const Features = () => {
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  // EmailJS configuration
+  const EMAILJS_SERVICE_ID = 'service_u1u15bl';
+  const EMAILJS_TEMPLATE_ID = 'template_razpile';
+  const EMAILJS_PUBLIC_KEY = 'gKptc1k1ECBbefqyG';
+
+  const handleSubmit = async () => {
+    if (!isFormValid || isLoading) return;
+    
     setIsLoading(true);
-    
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
-    setIsSubmitted(true);
-    setIsLoading(false);
+    setError("");
+
+    try {
+      // Load EmailJS script if not already loaded
+      if (!window.emailjs) {
+        const script = document.createElement('script');
+        script.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js';
+        script.onload = () => {
+          window.emailjs.init(EMAILJS_PUBLIC_KEY);
+          sendEmail();
+        };
+        document.head.appendChild(script);
+      } else {
+        await sendEmail();
+      }
+    } catch (err) {
+      console.error('EmailJS error:', err);
+      setError("Failed to join waitlist. Please try again.");
+      setIsLoading(false);
+    }
+  };
+
+  const sendEmail = async () => {
+    try {
+      // Initialize EmailJS with your public key
+      if (!window.emailjs.init) {
+        window.emailjs.init(EMAILJS_PUBLIC_KEY);
+      }
+
+      // Prepare template parameters
+      const templateParams = {
+        parent_name: formData.parentName,
+        email: formData.email,
+        child_age: formData.childAge,
+        to_name: formData.parentName,
+        to_email: formData.email,
+        reply_to: formData.email,
+        timestamp: new Date().toLocaleString(),
+      };
+
+      // Send email
+      const result = await window.emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        templateParams
+      );
+
+      console.log('EmailJS Success:', result);
+      setIsSubmitted(true);
+      setIsLoading(false);
+    } catch (error) {
+      console.error('EmailJS Error:', error);
+      setError("Failed to join waitlist. Please check your connection and try again.");
+      setIsLoading(false);
+    }
   };
 
   const handleInputChange = (e) => {
@@ -27,6 +83,8 @@ const Features = () => {
       ...prev,
       [e.target.name]: e.target.value
     }));
+    // Clear error when user starts typing
+    if (error) setError("");
   };
 
   const isFormValid = formData.parentName && formData.email && formData.childAge;
@@ -61,7 +119,7 @@ const Features = () => {
                     🎉 You're In!
                   </h3>
                   <p className="text-xl text-gray-700 leading-relaxed">
-                    Welcome to the <strong>Lumixcorp</strong> family! We'll keep you updated on our progress and notify you as soon as we're ready to launch.
+                    Welcome to the <strong>Lexim</strong> family! We'll keep you updated on our progress and notify you as soon as we're ready to launch.
                   </p>
                 </div>
 
@@ -130,7 +188,7 @@ const Features = () => {
             Join the Waitlist
           </h2>
           <p className="text-xl text-gray-700 max-w-xl mx-auto leading-relaxed">
-            Be the first to know when <strong>Lumixcorp</strong> launches and get exclusive early access to transform your child's screen time!
+            Be the first to know when <strong>Lexim</strong> launches and get exclusive early access to transform your child's screen time!
           </p>
 
           {/* Stats */}
@@ -157,7 +215,15 @@ const Features = () => {
           </CardHeader>
           
           <CardContent className="relative z-10">
-            <form onSubmit={handleSubmit} className="space-y-6">
+            {/* Error Message */}
+            {error && (
+              <div className="mb-6 p-4 bg-red-50 border-2 border-red-200 rounded-2xl flex items-center gap-3">
+                <AlertCircle className="w-5 h-5 text-red-600 flex-shrink-0" />
+                <p className="text-red-700 font-medium">{error}</p>
+              </div>
+            )}
+
+            <div className="space-y-6">
               <div className="space-y-5">
                 <div className="space-y-2">
                   <label htmlFor="parentName" className="text-base font-semibold flex items-center gap-2 text-gray-700">
@@ -220,8 +286,9 @@ const Features = () => {
               </div>
 
               <button
-                type="submit" 
+                type="button" 
                 disabled={!isFormValid || isLoading}
+                onClick={handleSubmit}
                 className={`w-full h-14 rounded-2xl font-bold text-lg transition-all duration-300 flex items-center justify-center gap-3 shadow-xl ${
                   isFormValid && !isLoading
                     ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700 hover:scale-105 hover:shadow-2xl'
@@ -231,7 +298,7 @@ const Features = () => {
                 {isLoading ? (
                   <div className="flex items-center gap-2">
                     <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                    Joining...
+                    Sending...
                   </div>
                 ) : (
                   <>
@@ -259,8 +326,8 @@ const Features = () => {
                 <p className="text-xs text-gray-500">
                   🔒 We respect your privacy. Unsubscribe at any time.
                 </p>
-              </div>
-            </form>
+                              </div>
+            </div>
           </CardContent>
         </Card>
 

@@ -18,7 +18,7 @@ const Team = () => {
       name: "Dyne Asif",
       role: "Product Developer",
       bio: "Expert in user experience design and front-end development. Crafts intuitive interfaces that enhance learning experiences.",
-      image: "src/assets/dyne.webp",
+      image: "https://blogger.googleusercontent.com/img/a/AVvXsEhDk2pbsSTXopgKpig3gKr8YZwD_6eLdwP7tBpmxG8AdAuZY1Gvd8oSaQIPfuG5PESLSrHAGUV45BA6vU_pkmjbHsARNXkGfyLwvU3c4CqZ768qyYoS80Jz1n0z5CRqeFm5RKD8hV20uqB5rMsfiQEchL_j9fVqFM0zOiCUHWx2eNmVmmIXPXaOBnBYVoQ",
       primaryColor: "purple",
       gradients: {
         card: "from-purple-50/80 via-pink-50/60 to-white",
@@ -48,8 +48,8 @@ const Team = () => {
     {
       name: "Anas Raheem",
       role: "Project Lead",
-      bio: "Passionate about creating educational technology that makes a real difference. Drives Ayla's vision of transforming screen time into meaningful learning experiences.",
-      image: "src/assets/anas.webp",
+      bio: "Passionate about creating educational technology that makes a real difference. Drives Lumix's vision of transforming screen time into meaningful learning experiences.",
+      image: "https://blogger.googleusercontent.com/img/a/AVvXsEg3TplE2r1kmiX1soVN015f6ufzf3HfAmwE22R-p2STEBIqSPs7bypgxGJtrgcQYd6DaLiMunNPCD0hUnunMFYAMS4gzcrqlbJR7PvvHIDL2wn91KJUVRQCQPVmrnxcWcvZ6oU1mLFHw078Q5KOgVmWv0HX7MyoiUesc0tWqXjM3M_X_Yp6sa9FJO8btcE",
       primaryColor: "blue",
       gradients: {
         card: "from-blue-50/80 via-cyan-50/60 to-white",
@@ -81,7 +81,7 @@ const Team = () => {
       name: "Muhammad Kashir",
       role: "ML Engineer",
       bio: "Machine learning specialist focused on educational AI. Develops intelligent algorithms that personalize each child's learning journey.",
-      image: "src/assets/kashir.webp",
+      image: "https://blogger.googleusercontent.com/img/a/AVvXsEj3a2jBGgVi_Jtb0qiXdCPf8zATiYCVNTKuQ126LuIA2ZNZnGc2a85p8CrrQDQkeKvoMAPWOmWStFcNe6TYPPxEAfvL0vE--NFP6ZwYvzYMesA7zPgMKK9M9N_iPTloHML2aqzLsz3YCZzlHrlnQvbRCEF6Zr0szB0adG74ouo0uvYUfgo-IkIQfaigET4",
       primaryColor: "emerald",
       gradients: {
         card: "from-emerald-50/80 via-teal-50/60 to-white",
@@ -112,7 +112,7 @@ const Team = () => {
       name: "Dua Fatima",
       role: "Backend Developer",
       bio: "Scalable backend systems architect with expertise in cloud infrastructure and API development. Ensures robust, secure, and high-performance server-side solutions.",
-      image: "/api/placeholder/400/400",
+      image: "https://blogger.googleusercontent.com/img/a/AVvXsEhkQLjKVJyeEJ59wBsz7l5t0ylHK6GoJDtB59xoj1mDTU8efrdqjGv0Xg_ZbbGJCKCrvsq2wqteS65ozCsjHhiAOVcmQvakkhEE6R19LUNQe9LYVm1UzK7g_qLFxfwO2kBnP5lWiymNIA6Zg5Fqc0SYN1dVcanDjJ5Mfxg0PXDpMCVgT5lV3ZsZMIvy7c0",
       primaryColor: "orange",
       gradients: {
         card: "from-orange-50/80 via-red-50/60 to-white",
@@ -248,7 +248,7 @@ const Team = () => {
             <h1 className="text-3xl md:text-4xl lg:text-7xl font-black leading-tight text-gray-900 tracking-tight">
               The Visionaries Behind
               <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 bg-clip-text text-transparent block mt-2 relative">
-                Ayla's Revolution
+                Lexim's Revolution
                 <div className="absolute -top-2 md:-top-4 right-0 w-6 md:w-8 h-6 md:h-8 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full animate-bounce opacity-80"></div>
               </span>
             </h1>
