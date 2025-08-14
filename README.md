@@ -1,8 +1,8 @@
-# 🎯 Ayla - Transforming Screen Time into Learning Time
+# 🎯 Lumixcorp - Transforming Screen Time into Learning Time
 
 <div align="center">
 
-![Ayla Logo](./src/assets/logo.png)
+![Lumixcorp Logo](./src/assets/logo.png)
 
 **Breaking the Doom Scrolling Cycle • Building Brighter Minds • Creating Productive Futures**
 
@@ -11,15 +11,15 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-[🚀 Live Demo](https://ayla-platform.vercel.app) • [📖 Documentation](https://docs.ayla-platform.com) • [🎮 Try Games](https://ayla-platform.com/games) • [👨‍👩‍👧‍👦 For Parents](https://ayla-platform.com/parents)
+[🚀 Live Demo](https://Lumixcorp-platform.vercel.app) • [📖 Documentation](https://docs.Lumixcorp-platform.com) • [🎮 Try Games](https://Lumixcorp-platform.com/games) • [👨‍👩‍👧‍👦 For Parents](https://Lumixcorp-platform.com/parents)
 
 </div>
 
 ---
 
-## 🌟 **What is Ayla?**
+## 🌟 **What is Lumixcorp?**
 
-Ayla is a revolutionary educational platform designed to **combat children's doom scrolling addiction** and transform passive screen time into active, productive learning experiences. We believe every scroll should spark curiosity, every tap should teach something new, and every moment online should build a brighter future.
+Lumixcorp is a revolutionary educational platform designed to **combat children's doom scrolling addiction** and transform passive screen time into active, productive learning experiences. We believe every scroll should spark curiosity, every tap should teach something new, and every moment online should build a brighter future.
 
 ### 🎯 **Our Mission**
 *"To rescue young minds from the endless scroll and guide them towards purposeful digital engagement that nurtures growth, creativity, and learning."*
@@ -35,7 +35,7 @@ Ayla is a revolutionary educational platform designed to **combat children's doo
 - **Mental health** impacts from passive content consumption
 
 ### 💡 **Our Solution**
-Ayla replaces mindless scrolling with:
+Lumixcorp replaces mindless scrolling with:
 - 🎮 **Mind-stimulating games** that build cognitive skills
 - 🏆 **Achievement systems** that reward learning progress
 - 🎨 **Creative challenges** that spark imagination
@@ -86,8 +86,8 @@ Git
 ### ⚡ **Quick Setup**
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/ayla-platform.git
-cd ayla-platform
+git clone https://github.com/your-org/Lumixcorp-platform.git
+cd Lumixcorp-platform
 
 # Install dependencies
 npm install
@@ -116,7 +116,7 @@ VITE_ANALYTICS_ID=your_analytics_id
 ## 🏗️ **Project Structure**
 
 ```
-ayla-platform/
+Lumixcorp-platform/
 ├── 📁 src/
 │   ├── 🖼️  assets/           # Images, icons, media files
 │   │   ├── anas.webp         # Team member photos
@@ -307,7 +307,7 @@ git push origin feature/amazing-game
 ### **For Parents**
 - 🐛 Bug reports and usability feedback
 - 💡 Feature requests and ideas
-- 📢 Spread the word about Ayla
+- 📢 Spread the word about Lumixcorp
 - ⭐ Rate and review our platform
 
 ---
@@ -315,11 +315,11 @@ git push origin feature/amazing-game
 ## 🎯 **Impact & Results**
 
 ### **Academic Improvement**
-> *"Since using Ayla, my daughter's problem-solving skills have improved dramatically. She now approaches homework with the same enthusiasm she shows for the platform's games!"*  
+> *"Since using Lumixcorp, my daughter's problem-solving skills have improved dramatically. She now approaches homework with the same enthusiasm she shows for the platform's games!"*  
 > **— Sarah Johnson, Parent**
 
 ### **Reduced Screen Time Anxiety**
-> *"Ayla has transformed our relationship with technology. Instead of fighting about screen time, we celebrate learning achievements together."*  
+> *"Lumixcorp has transformed our relationship with technology. Instead of fighting about screen time, we celebrate learning achievements together."*  
 > **— Michael Chen, Parent**
 
 ### **Educational Value**
@@ -331,16 +331,16 @@ git push origin feature/amazing-game
 ## 📞 **Support & Community**
 
 ### **Get Help**
-- 📧 **Email:** support@ayla-platform.com
-- 💬 **Discord:** [Join our community](https://discord.gg/ayla-platform)
-- 📚 **Documentation:** [docs.ayla-platform.com](https://docs.ayla-platform.com)
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/your-org/ayla-platform/issues)
+- 📧 **Email:** support@Lumixcorp-platform.com
+- 💬 **Discord:** [Join our community](https://discord.gg/Lumixcorp-platform)
+- 📚 **Documentation:** [docs.Lumixcorp-platform.com](https://docs.Lumixcorp-platform.com)
+- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/your-org/Lumixcorp-platform/issues)
 
 ### **Stay Connected**
-- 🐦 **Twitter:** [@AylaPlatform](https://twitter.com/AylaPlatform)
-- 📘 **Facebook:** [Ayla Educational Platform](https://facebook.com/AylaPlatform)
-- 💼 **LinkedIn:** [Ayla Team](https://linkedin.com/company/ayla-platform)
-- 📺 **YouTube:** [Ayla Learning Channel](https://youtube.com/AylaLearning)
+- 🐦 **Twitter:** [@LumixcorpPlatform](https://twitter.com/LumixcorpPlatform)
+- 📘 **Facebook:** [Lumixcorp Educational Platform](https://facebook.com/LumixcorpPlatform)
+- 💼 **LinkedIn:** [Lumixcorp Team](https://linkedin.com/company/Lumixcorp-platform)
+- 📺 **YouTube:** [Lumixcorp Learning Channel](https://youtube.com/LumixcorpLearning)
 
 ---
 
@@ -350,13 +350,13 @@ git push origin feature/amazing-game
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ### **Child Privacy Protection**
-Ayla is fully compliant with:
+Lumixcorp is fully compliant with:
 - 🔒 **COPPA** (Children's Online Privacy Protection Act)
 - 🛡️ **GDPR** (General Data Protection Regulation)
 - 🏫 **FERPA** (Family Educational Rights and Privacy Act)
 
 ### **Content Guidelines**
-All content on Ayla is:
+All content on Lumixcorp is:
 - ✅ Age-appropriate and educationally valuable
 - ✅ Reviewed by child development experts
 - ✅ Free from harmful or inappropriate material
@@ -369,13 +369,13 @@ All content on Ayla is:
 Ready to transform how children interact with technology? 
 
 **For Parents:**  
-[🚀 **Start Your Child's Journey**](https://ayla-platform.com/signup)
+[🚀 **Start Your Child's Journey**](https://Lumixcorp-platform.com/signup)
 
 **For Educators:**  
-[🏫 **Request School Demo**](https://ayla-platform.com/schools)
+[🏫 **Request School Demo**](https://Lumixcorp-platform.com/schools)
 
 **For Developers:**  
-[💻 **Contribute to Ayla**](https://github.com/squadinfinity/brainyplay-landing-sparkle)
+[💻 **Contribute to Lumixcorp**](https://github.com/squadinfinity/brainyplay-landing-sparkle)
 
 ---
 
@@ -383,12 +383,12 @@ Ready to transform how children interact with technology?
 
 ### **Together, let's build a future where every scroll sparks curiosity and every tap teaches something new.**
 
-**Made with ❤️ by the Ayla Team**
+**Made with ❤️ by the Lumixcorp Team**
 
-[⭐ **Star this repo**](https://github.com/your-org/ayla-platform) • [🔄 **Share with friends**](https://twitter.com/intent/tweet?text=Check%20out%20Ayla%20Platform%20-%20transforming%20screen%20time%20into%20learning%20time!%20https://github.com/your-org/ayla-platform) • [💡 **Suggest improvements**](https://github.com/your-org/ayla-platform/issues/new)
+[⭐ **Star this repo**](https://github.com/your-org/Lumixcorp-platform) • [🔄 **Share with friends**](https://twitter.com/intent/tweet?text=Check%20out%20Lumixcorp%20Platform%20-%20transforming%20screen%20time%20into%20learning%20time!%20https://github.com/your-org/Lumixcorp-platform) • [💡 **Suggest improvements**](https://github.com/your-org/Lumixcorp-platform/issues/new)
 
 ---
 
-**© 2025 Ayla Platform. All rights reserved.**
+**© 2025 Lumixcorp Platform. All rights reserved.**
 
 </div>

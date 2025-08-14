@@ -126,7 +126,7 @@ const Footer = () => {
               <div className="space-y-6">
                 <div className="group cursor-pointer">
                   <h3 className="text-4xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent group-hover:scale-110 transition-all duration-500 transform-gpu">
-                    Ayla
+                    Lumixcorp
                   </h3>
                   <div className="h-1 w-0 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-700 rounded-full transform origin-left"></div>
                   <div className="flex gap-1 mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -382,7 +382,7 @@ const Footer = () => {
           <div className="border-t-2 border-slate-200 mt-16 pt-8">
             <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
               <div className="flex flex-col md:flex-row items-center gap-6 text-sm text-slate-600">
-                <span className="font-medium">© 2025 Ayla. All rights reserved.</span>
+                <span className="font-medium">© 2025 Lumixcorp. All rights reserved.</span>
                 <div className="flex gap-6">
                   {["Privacy Policy", "Terms of Service", "Cookies"].map((link) => (
                     <button 

@@ -61,7 +61,7 @@ const Features = () => {
                     🎉 You're In!
                   </h3>
                   <p className="text-xl text-gray-700 leading-relaxed">
-                    Welcome to the <strong>Ayla</strong> family! We'll keep you updated on our progress and notify you as soon as we're ready to launch.
+                    Welcome to the <strong>Lumixcorp</strong> family! We'll keep you updated on our progress and notify you as soon as we're ready to launch.
                   </p>
                 </div>
 
@@ -130,7 +130,7 @@ const Features = () => {
             Join the Waitlist
           </h2>
           <p className="text-xl text-gray-700 max-w-xl mx-auto leading-relaxed">
-            Be the first to know when <strong>Ayla</strong> launches and get exclusive early access to transform your child's screen time!
+            Be the first to know when <strong>Lumixcorp</strong> launches and get exclusive early access to transform your child's screen time!
           </p>
 
           {/* Stats */}

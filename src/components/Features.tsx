@@ -68,12 +68,12 @@ const Features = () => {
                 <div className="text-sm text-gray-600">Brain Games</div>
               </div>
               <div className="bg-white/60 backdrop-blur-sm px-6 py-4 rounded-2xl shadow-lg border border-gray-200">
-                <div className="text-2xl font-bold text-purple-600">10K+</div>
-                <div className="text-sm text-gray-600">Happy Kids</div>
+                <div className="text-2xl font-bold text-purple-600">Endless</div>
+                <div className="text-sm text-gray-600">Opportunities</div>
               </div>
               <div className="bg-white/60 backdrop-blur-sm px-6 py-4 rounded-2xl shadow-lg border border-gray-200">
-                <div className="text-2xl font-bold text-green-600">95%</div>
-                <div className="text-sm text-gray-600">Parent Approved</div>
+                <div className="text-2xl font-bold text-green-600">Innovative</div>
+                <div className="text-sm text-gray-600">Digital environment</div>
               </div>
             </div>
 
@@ -97,7 +97,7 @@ const Features = () => {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <span className="text-gray-600">4.9/5 from 2,000+ parents</span>
+              <span className="text-gray-600">4.9/5 from 100+ Experts</span>
             </div>
           </div>
 
@@ -119,7 +119,7 @@ const Features = () => {
                       <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center">
                         <Brain className="w-4 h-4 text-white" />
                       </div>
-                      <span className="font-semibold text-gray-800">Ayla</span>
+                      <span className="font-semibold text-gray-800">Lumixcorp</span>
                     </div>
                     <div className="flex items-center gap-1 bg-white/60 backdrop-blur-sm px-3 py-1 rounded-full">
                       <Clock className="w-4 h-4 text-green-600" />

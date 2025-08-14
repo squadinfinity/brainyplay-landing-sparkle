@@ -49,7 +49,7 @@ const Navbar = () => {
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl lg:text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Ayla
+                Lumixcorp
               </h1>
               <p className="text-xs text-gray-500 -mt-1">Smart Screen Time</p>
             </div>
