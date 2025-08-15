@@ -27,7 +27,7 @@ const Team = () => {
         glow: "shadow-purple-500/20"
       },
       skills: ["UI/UX Design", "React Development", "Child Psychology", "Accessibility"],
-      experience: "1+ Years",
+      experience: "5+ Years",
       department: "Product Design",
       icon: Palette,
       category: "design",
@@ -42,7 +42,7 @@ const Team = () => {
       socials: {
         linkedin: "#",
         github: "#",
-        email: "dyne@ayla.com"
+        email: "dyne@lumix.com"
       }
     },
     {
@@ -74,7 +74,7 @@ const Team = () => {
       socials: {
         linkedin: "#",
         github: "#",
-        email: "anasraheem@ayla.com"
+        email: "anasraheem@lumix.com"
       }
     },
     {
@@ -105,7 +105,7 @@ const Team = () => {
       socials: {
         linkedin: "#",
         github: "#",
-        email: "kashir@ayla.com"
+        email: "kashir@lumix.com"
       }
     },
     {
@@ -136,7 +136,7 @@ const Team = () => {
       socials: {
         linkedin: "#",
         github: "#",
-        email: "dua@ayla.com"
+        email: "dua@lumix.com"
       }
     }
   ];
