@@ -455,7 +455,7 @@ const Team = () => {
           {[
             { number: "13+", label: "Years Combined Experience", icon: Award, gradient: "from-purple-400 via-pink-400 to-purple-500" },
             { number: "134+", label: "Projects Delivered", icon: Trophy, gradient: "from-blue-400 via-cyan-400 to-blue-500" },
-            { number: "15K+", label: "Students Impacted", icon: Users, gradient: "from-emerald-400 via-teal-400 to-emerald-500" },
+            { number: "15K+", label: "People Impacted", icon: Users, gradient: "from-emerald-400 via-teal-400 to-emerald-500" },
             { number: "99%", label: "Client Satisfaction", icon: Star, gradient: "from-yellow-400 via-orange-400 to-yellow-500" }
           ].map((stat, index) => (
             <div key={index} className="group text-center bg-white/90 backdrop-blur-xl rounded-2xl p-6 shadow-2xl border border-white/50 hover:shadow-3xl transition-all duration-500 hover:scale-105 cursor-pointer relative overflow-hidden">
